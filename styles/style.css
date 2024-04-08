@@ -1635,7 +1635,53 @@ grid-area: 20/26/51/32;
 grid-area: 37/39/48/47;
 }
 
-
+/* -- CONTACT PAGE -- */
+.contact .slider-item{
+    justify-content: flex-start;
+}
+.contact h1{
+    margin-left:15%;
+    width:100%;
+    color:var(--light-beige);
+}
+.contactForm{
+    margin: 5%;
+    padding: auto 5%;
+}
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm select,
+.contactForm textArea {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 4px);
+    margin:0em;
+    margin-bottom: 0.5em;
+    padding: 1.4rem 1em;
+    border: 2px solid black;
+    border-radius: 1em;
+    background: #fff;
+    resize: none;
+    outline: none;
+    font-size: var(--fontSize-body-4);
+  }
+  .contactForm form{
+    padding:0% 5%;
+  }
+.cText{
+    display: flex;
+    align-items:center;
+}
+.contactForm h1{
+    color:var(--green-1);
+}
+.contact.hero .slider-item.active .hero-title { animation-delay: 1000ms; margin-top:20%; }
+.contactForm .btn2{
+    max-width:none;
+    text-align: center;
+    width:100%;
+    margin-top:5%;
+}
 
 
 
