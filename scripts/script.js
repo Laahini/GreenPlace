@@ -156,3 +156,8 @@ counters.forEach( counter => {
 
 
 
+$(".option").click(function(){
+  $(".option").removeClass("methodActive");
+  $(this).addClass("methodActive");
+  
+});
