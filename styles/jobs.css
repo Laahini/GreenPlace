@@ -21,7 +21,7 @@
     background:var(--lgreen-1);
   }
   .jobMeta h1{
-    font-size: 100px;
+    font-size: 90px;
     margin-bottom:3%;
     margin-top: 0%;
     color: var(--smoky-black-1);
@@ -119,6 +119,11 @@
   }
   .jobDetails .jobCategory h3{
     text-align: center;
+    color: var(--green-1);
+  }
+  .jobDetails h2,
+  .jobDetails h3{
+    color: var(--green-1);
   }
   .jobDetails .categoryContainer
   {
