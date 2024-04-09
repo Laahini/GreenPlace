@@ -611,6 +611,8 @@ height: 48px;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
+    margin-left:0;
+    margin-right: 0;
 }
 .nav-open-btn {
     padding: 12px;
@@ -956,6 +958,8 @@ column-gap: 1.25em;
 .stats1{
     margin-inline:auto;
     font-family: var(--fontFamily-reem);
+    padding-left:2%;
+    padding-right:2%;
 }
 .stats1 .value {
     font-size: var(--fontSize-display-33);
@@ -990,7 +994,7 @@ column-gap: 1.25em;
     font-size: var(--fontSize-body-2);
 }
 .goalGrid{
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .goals .headline-2{
     line-height: 5.5rem;
@@ -998,6 +1002,7 @@ column-gap: 1.25em;
 .goalStat{
     padding-left:2%;
     padding-right:2%;
+    margin:0%;
 }
 .goals .container{
     margin:auto;
@@ -1013,17 +1018,16 @@ column-gap: 1.25em;
     margin:auto;
     padding-bottom:4%;
     padding-top: 4%;
+    padding-right:2%;
 }
-.testimony .flex{
-    justify-content:center;
-    align-items:center;
-    gap:5%;
-}
+
 .testimony h3{
     color: white;
     font-size: var(--fontSize-body-1);
     line-height: 5rem;
     font-family: var(--fontFamily-reem);
+    margin: auto;
+    padding:0;
 }
 .signDetails{
 
@@ -1167,6 +1171,7 @@ column-gap: 1.25em;
 /* -- BETTER -- */
 .better{
     background-color: var(--quick-silver);
+    padding:0px;
 }
 .better h1{
     font-size: var(--fontSize-body-1);
@@ -2249,6 +2254,21 @@ grid-area: 37/39/48/47;
 
     /* -- Hero -- */
     .hero-btn { transform: scale(0.7); }
+    .testimony h3{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .better{
+        padding:2%;
+        padding-top:4%;
+        padding-bottom: 4%;
+    }
+    .goalStat{
+        margin:5%;
+    }
+    .goalGrid{
+        margin-top: 2%;
+    }
 }
 
 /* -- Responsive for smaller than 575px -- */
@@ -2295,7 +2315,21 @@ grid-area: 37/39/48/47;
     .give{
         margin-bottom:5%;
     }
-
+    .testimony h3{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .better{
+        padding:2%;
+        padding-top:4%;
+        padding-bottom: 4%;
+    }
+    .goalStat{
+        margin:5%;
+    }
+    .goalGrid{
+        margin-top: 2%;
+    }
 }
 
 /* -- Responsive for larger than 768px -- */
@@ -2345,6 +2379,19 @@ grid-area: 37/39/48/47;
     .give{
         margin-bottom:5%;
     }
+    .better{
+        padding:0px;
+    }
+    .goalStat{
+        margin:0%;
+        margin-top:5%;
+    }
+    .goalGrid{
+        margin-top: 5%;
+    }
+    .header .container{
+        max-width:100%;
+    }
 }
 
 /* -- Responsive for screen larger than 992px -- */
@@ -2386,7 +2433,9 @@ grid-area: 37/39/48/47;
         height: 80vh;
         perspective: 1500px;
     }
-
+    .goalStat{
+        margin:0%;
+    }
 }
 
 /* -- Responsive for screen larger than 1200px -- */
