@@ -1279,19 +1279,19 @@ column-gap: 1.25em;
     flex: 7;
 }
 .item-1 {
-    background-image: url("media/team/25.jpeg");
+    background-image: url("../media/team/25.jpeg");
 }
 .item-2 {
-    background-image: url("media/team/26.jpeg");
+    background-image: url("../media/team/26.jpeg");
 }
 .item-3 {
-    background-image: url(media/team/27.jpeg);
+    background-image: url("../media/team/27.jpeg");
 }
 .item-4 {
-    background-image: url(media/team/28.jpeg);
+    background-image: url("../media/team/28.jpeg");
 }
 .item-5 {
-    background-image: url(media/team/29.jpeg);
+    background-image: url("../media/team/29.jpeg");
 }
 .give .about-text{
     padding-bottom: 0%;
