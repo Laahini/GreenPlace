@@ -2028,6 +2028,41 @@ grid-area: 37/39/48/47;
     background-color: var(--smoky-white-1);
 }
 
+
+
+/*RENEWABLES*/
+.offeredSolutions{
+    padding:5%;
+}
+.swiper {
+   
+    height: 50vh;
+}
+.removeMT{
+    margin-top: 0%;
+}
+.solution-item{
+    height:100%;
+}
+.offeredSolutions img{
+    height:45%;
+    width:100%;
+}
+.offeredSolutions .btn2{
+    width:100%;
+    padding: 5px 40px;
+}
+
+
+/* --------- APPLIANCE PAGE ------ */
+.productCard{
+    padding:4%;
+    background-color: white;
+}
+#eProducts{
+    padding:5% 10%;
+}
+
 /* ----- congrats page ------- */
 
 .confetti {
