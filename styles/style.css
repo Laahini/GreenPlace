@@ -790,6 +790,9 @@ height: 48px;
 .careers {
     min-height: 90vh;
 }
+.search {
+    height: 70vh;
+}
 .hero .slider-item {
     position: absolute;
     top: 50%;
@@ -822,6 +825,9 @@ height: 48px;
 }
 .careers .slider-bg{
     height:90vh;
+}
+.search .slider-bg{
+    height:70vh;
 }
 .hero .slider-item.active .slider-bg {
     animation: smoothScale 7s linear forwards;
@@ -866,7 +872,7 @@ height: 48px;
     animation: rotate360 15s linear infinite;
 }
 .slider-reveal {
-    transform: translateY(30px);
+    transform: translateY(10px);
     opacity: 0;
 }
 .hero .slider-item.active .slider-reveal {
@@ -1474,15 +1480,19 @@ column-gap: 1.25em;
 
 /* -- filters -- */
 .filter{
-    width: 300px;
+    width: 320px;
     border: 1px solid black;
     border-radius: 25px;
-    padding:3% 5%;
-    font-size: var(--fontSize-body-4);
+    padding:2.5% 4%;
     color:var(--smoky-black-1);
     background: white;
     appearance: none;
     margin-inline-end: 1em;
+    text-align: center;
+    font-family: var(--fontFamily-open_sans);
+    font-size: var(--fontSize-label-2);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--letterSpacing-5);
 }
 .filter:hover,
 .filter:focus {
@@ -1493,7 +1503,12 @@ column-gap: 1.25em;
     margin:5% 5%;
 }
 #filters-form {
+    margin-top:5%;
     height:10vh;
+    width:100vw;
+}
+#filters-form select{
+    margin:auto;
 }
 #search-form{
     height:14vh;
@@ -2055,12 +2070,31 @@ grid-area: 37/39/48/47;
 
 
 /* --------- APPLIANCE PAGE ------ */
+.search .slider-item {
+    height: 70vh;
+}
+.search{
+    min-height: 70vh;
+}
 .productCard{
     padding:4%;
     background-color: white;
+    margin-bottom:5%;
+    margin-top:5%;
+    height:40vh;
+}
+.productCard h4{
+    color:var(--green-1);
+}
+.productCard h5{
+    font-style: italic;
 }
 #eProducts{
     padding:5% 10%;
+}
+.productCard .btn2{
+    padding:5px 10px;
+    width: 100%;
 }
 
 /* ----- congrats page ------- */
@@ -2609,6 +2643,9 @@ grid-area: 37/39/48/47;
     }
     .careers {
         height: 90vh;
+    }
+    .search {
+        height: 70vh;
     }
 }
 

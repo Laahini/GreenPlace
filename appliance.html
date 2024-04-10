@@ -160,15 +160,15 @@
     </header>
 
     <!--VIDEO BACKGROUND-->
-    <section class="hero careers" aria-label="home" id="home">
+    <section class="hero search" aria-label="home" id="home">
       <ul class="hero-slider" data-hero-slider>
         <li class="slider-item active" data-hero-slider-item>
           <div class="slider-bg">
               <video playsinline width="100%" height="" class="img-cover" muted="”muted”preload=&quot;yes&quot;" autoplay="autoplay" loop="loop">
                   <source src="media/bckgvid3.mp4">
               </video>
-          </div>
-          <div class="careerCoverText slider-reveal section">
+          </div><br><br><br><br>
+          <div class="careerCoverText slider-reveal">
             <span id="element" class="text-center"></span>
             <script>
               var typed = new Typed('#element', {
@@ -177,24 +177,17 @@
               });
             </script>
           </div>
-          <form id="search-form" action="" method="POST" enctype="multipart/form-data" class="row g-0 mx-lg-0">
-            <div class="col-lg-9 form-group wow fadeIn" data-wow-delay="0.1s">
-              <input class=" searchBar form-control"  type="text" placeholder="Search" />
-            </div>
-            <div class="col-lg-3 form-group pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-              <button type="submit" class="btn ">Search</button>
-            </div>
-          </form>
+          
           <form id="filters-form" class="row g-0 mx-lg-0">
-            <div class="col-lg-4 form-group wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-lg-6 form-group wow fadeIn" data-wow-delay="0.1s">
               <select data-filter="efficiencyProgram" class="filter-efficiencyProgram  form-control filter ">
-                <option value="">Choose Efficiency Program</option>
+                <option value="">CHOOSE EFFICIENCY PROGRAM</option>
                 <option value="">Show All</option>
               </select>
             </div>
-            <div class="col-lg-4 form-group pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+            <div class="col-lg-6 form-group pe-lg-0 wow fadeIn" data-wow-delay="0.5s" >
               <select data-filter="productType" class="filter-productType form-control filter ">
-                <option value="">Choose Product Type</option>
+                <option value="">CHOOSE PRODUCT TYPE</option>
                 <option value="">Show All</option>
               </select>
             </div>

@@ -75,7 +75,7 @@ var data = [
         productName: "Smart Thermostats",
         productType: "Heating & Cooling",
         efficiencyProgram: "ENERGY STAR",
-        descrip: "A smart thermostat is a Wi-Fi enabled device that automatically adjusts heating and cooling temperature settings in your home for optimal performance.",
+        descrip: "A smart thermostat is a Wi-Fi enabled device that automatically adjusts heating and cooling temperature settings in your home.",
         productImg: "jobs/communityOutreachCoordinator.html",
         productLink: "https://www.energystar.gov/productfinder/product/certified-connected-thermostats/results"
 	},
@@ -152,95 +152,205 @@ var data = [
         productLink: "https://www.energystar.gov/productfinder/product/certified-furnaces/results"
 	},
     {
-        productName: "Geothermal Heat Pumps (Residential)",
+        productName: "Hot Food Holding Cabinets",
+        productType: "Appliances and Food Service",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-commercial-hot-food-holding-cabinets/results"
+	},
+    {
+        productName: "Ice Machines, Air-Cooled",
+        productType: "Appliances and Food Service",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-commercial-ice-machines/results"
+	},
+    {
+        productName: "Imaging Equipment",
+        productType: "Electronics and Information Technology",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-imaging-equipment/results"
+	},
+    {
+        productName: "Refrigerators",
+        productType: "Appliances and Food Service",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/results"
+	},
+    {
+        productName: "Room Air Conditioners",
         productType: "Heating and Cooling",
         efficiencyProgram: "ENERGY STAR",
         descrip: "Thouraging positive change toward a more sustainable future.",
         productImg: "jobs/communityOutreachCoordinator.html",
-        productLink: "https://www.energystar.gov/productfinder/product/certified-geothermal-heat-pumps/results"
+        productLink: "https://www.energystar.gov/productfinder/product/certified-room-air-conditioners/results"
 	},
+    {
+        productName: "Light Bulbs",
+        productType: "Lighting",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-light-bulbs/results"
+	},
+    {
+        productName: "Mobile Phones",
+        productType: "Electronics and Information Technology",
+        efficiencyProgram: "EPEAT",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.epeat.net/search-mobile-phones"
+	},
+    {
+        productName: "Showerheads",
+        productType: "Water Consuming Devices",
+        efficiencyProgram: "WaterSense",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://lookforwatersense.epa.gov/products/Product-Search-Results-Showerhead.html"
+	},
+    {
+        productName: "Smart Home Energy Management Systems",
+        productType: "Other",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/products/smart_home_energy_mgnt_systems"
+	},
+    {
+        productName: "Solar PV Modules",
+        productType: "Other",
+        efficiencyProgram: "EPEAT",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.epeat.net/search-pvmi"
+	},
+    {
+        productName: "Telephones",
+        productType: "Electronics and Information Technology",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-telephones/results"
+	},
+    {
+        productName: "Televisions",
+        productType: "Electronics and Information Technology",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-televisions/results"
+	},
+    {
+        productName: "Toilets",
+        productType: "Water Consuming Devices",
+        efficiencyProgram: "WaterSense",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://lookforwatersense.epa.gov/products/Product-Search-Results-Toilets.html"
+	},
+    {
+        productName: "Water Coolers",
+        productType: "Other",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-water-coolers/results"
+	},
+    {
+        productName: "Water Heaters (Residential)",
+        productType: "Heating and Cooling",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-water-heaters/"
+	},
+    {
+        productName: "Windows, Doors, and Skylights",
+        productType: "Other",
+        efficiencyProgram: "ENERGY STAR",
+        descrip: "Thouraging positive change toward a more sustainable future.",
+        productImg: "jobs/communityOutreachCoordinator.html",
+        productLink: "https://www.energystar.gov/productfinder/product/certified-windows/results"
+	}
 ];
 
 var products = "",
-    jobNames = "",
-    jobLocations = "",
-    careerTypes = "",
-    jobTypes = "",
-    descrips = "",
-    jobAppDescrips = "";
+    productNames = "",
+    productTypes = "",
+    efficiencyPrograms = "",
+    productImgs = "",
+    productLinks = "",
+    descrips = "";
 
 
 for (var i = 0; i < data.length; i++) {
-	var jobName = data[i].jobName
-        jobLocation = data[i].jobLocation,
-        careerType = data[i].careerType,
-        jobType = data[i].jobType,
-        descrip = data[i].descrip,
-        jobAppDescrip = data[i].jobAppDescrip;
+	var productName = data[i].productName
+        productType = data[i].productType,
+        efficiencyProgram = data[i].efficiencyProgram,
+        productImg = data[i].productImg,
+        productLink = data[i].productLink,
+        descrip = data[i].descrip;
 
 	//create product cards
 
 
-    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="benefit-item productCard solution-item overflow-hidden">
-            <img class="img-fluid" src="media/img-600x400-2.jpg" alt="">
-                <div class="position-relative p-4 pt-0">
-                    <h4 class="mb-3 body-2">Air Purifiers and Cleaners (Residential)</h4>
-                    <p>According to the DOE, switching to energy-efficient appliances helped US consumers save $12 billion on utility bills last year. Use the search tool to make informed eco-friendly choices and cut costs on energy.</p>
-                    <a class="btn2" href="appliance.html">Search Products</a>
-                </div>
-        </div>
-    </div>
+    // <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+    //     <div class="benefit-item productCard solution-item overflow-hidden">
+    //         <img class="img-fluid" src="media/img-600x400-2.jpg" alt="">
+    //             <div class="position-relative p-4 pt-0">
+    //                 <h4 class="mb-3 body-2">Air Purifiers and Cleaners (Residential)</h4>
+    //                 <p>According to the DOE, switching to energy-efficient appliances helped US consumers save $12 billion on utility bills last year. Use the search tool to make informed eco-friendly choices and cut costs on energy.</p>
+    //                 <a class="btn2" href="appliance.html">Search Products</a>
+    //             </div>
+    //     </div>
+    // </div>
 
 
 	products +=
-        "<div class='jobCard product' data-jobName='" +
-        jobName +
-        "' data-jobLocation='" +
-        jobLocation +
-        "' data-careerType='" +
-        careerType +
-        "' data-jobType='" +
-        jobType +
-        "'><div class='openJob row'><div class='col-sm-8'><a href='" +
-        jobAppDescrip +
-        "'><h1>" +
-        jobName +
-        "</h1></a><p>" +
+        "<div class='col-md-6 col-lg-4 wow product fadeInUp' data-wow-delay='0.3s' data-productName='" + 
+        productName +
+        "' data-productType='" +
+        productType +
+        "' data-efficiencyProgram='" +
+        efficiencyProgram +
+        "'><div class='benefit-item productCard overflow-hidden'><img class='img-fluid' src='" +
+        productImg +
+        "' alt=''> <div class='position-relative p-4 pt-0'> <h4 class='mb-3 body-2'>" +
+        productName +
+        "</h4> <h5 class='mb-3 body-4'>" +
+        efficiencyProgram +
+        "</h5><p>" +
         descrip +
-        "</p><div class='tags row'> <div class='location col-sm-6'><i class='fa-solid fa-location-dot fa-xl'></i><h3>" +
-        jobLocation +
-        "</h3></div> <div class='workType col-sm-6'> <i class='fa-solid fa-briefcase fa-xl'></i><h3>" +
-        jobType +
-        "</h3></div></div></div> <div class=' col-sm-4 categoryContainer'> <div class='jobCategory'> <h3>" +
-        careerType + 
-        "</h3></div></div></div></div>";
+        "</p> <a class='btn2' href='" +
+        productLink +
+        "'> Search Products</a></div></div></div>";
 
-	//create dropdown of locations
+	//create dropdown of product types
     if (
-        jobLocations.indexOf("<option value='" + jobLocation + "'>" + jobLocation + "</option>") == -1
+        productTypes.indexOf("<option value='" + productType + "'>" + productType + "</option>") == -1
     ) {
-        jobLocations += "<option value='" + jobLocation + "'>" + jobLocation + "</option>";
+        productTypes += "<option value='" + productType + "'>" + productType + "</option>";
     }
 
-    //create dropdown of career types
+    //create dropdown of efficiency programs
     if (
-        careerTypes.indexOf("<option value='" + careerType + "'>" + careerType + "</option>") == -1
+        efficiencyPrograms.indexOf("<option value='" + efficiencyProgram + "'>" + efficiencyProgram + "</option>") == -1
     ) {
-        careerTypes += "<option value='" + careerType + "'>" + careerType + "</option>";
+        efficiencyPrograms += "<option value='" + efficiencyProgram + "'>" + efficiencyProgram + "</option>";
     }
 
-    //create dropdown of job types
-    if (
-        jobTypes.indexOf("<option value='" + jobType + "'>" + jobType + "</option>") == -1
-    ) {
-        jobTypes += "<option value='" + jobType + "'>" + jobType + "</option>";
-    }
 }
 
 $("#eProducts").html(products);
-$(".filter-efficiencyProgram").append(careerTypes);
-$(".filter-productType").append(jobTypes);
+$(".filter-efficiencyProgram").append(efficiencyPrograms);
+$(".filter-productType").append(productTypes);
 
 var filtersObject = {};
 
@@ -271,85 +381,6 @@ $(".filter").on("change", function () {
 	}
 });
 
-//on search form submit
-$("#search-form").submit(function (e) {
-	e.preventDefault();
-	var query = $("#search-form input").val().toLowerCase();
-
-	$(".product").hide();
-	$(".product").each(function () {
-		var jobName = $(this).data("jobName").toLowerCase(),
-			jobLocation = $(this).data("jobLocation").toLowerCase(),
-			jobType = $(this).data("jobType").toLowerCase(),
-            careerType = $(this).data("careerType").toLowerCase();
-		if (
-			jobName.indexOf(query) > -1 ||
-			jobLocation.indexOf(query) > -1 ||
-			jobType.indexOf(query) > -1 ||
-            careerType.indexOf(query) > -1
-		) {
-			$(this).show();
-		}
-	});
-});
 
 
 
-
-
-
-
-
-
-const dropContainer = document.getElementById("dropcontainer");
-const fileInput = document.getElementById("resume");
-
-dropContainer.addEventListener("dragover", e => {
-  e.preventDefault();
-}, false);
-
-dropContainer.addEventListener("dragenter", () => {
-  dropContainer.classList.add("drag-active");
-});
-
-dropContainer.addEventListener("dragleave", () => {
-  dropContainer.classList.remove("drag-active");
-});
-
-dropContainer.addEventListener("drop", e => {
-  e.preventDefault();
-  dropContainer.classList.remove("drag-active");
-  fileInput.files = e.dataTransfer.files;
-});
-
-
-
-const dropContainer2 = document.getElementById("dropcontainer2");
-const fileInput2 = document.getElementById("cletter");
-
-dropContainer2.addEventListener("dragover", e => {
-  e.preventDefault();
-}, false);
-
-dropContainer2.addEventListener("dragenter", () => {
-  dropContainer2.classList.add("drag-active");
-});
-
-dropContainer2.addEventListener("dragleave", () => {
-  dropContainer2.classList.remove("drag-active");
-});
-
-dropContainer2.addEventListener("drop", e => {
-  e.preventDefault();
-  dropContainer2.classList.remove("drag-active");
-  fileInput2.files = e.dataTransfer.files;
-});
-
-
-function submitJob(){
-  location.href="congrats.html";
-}
-
-function openCareers(){
-    location.href="../careers.html";
-  }
