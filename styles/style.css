@@ -217,7 +217,7 @@ body.nav-active { overflow: hidden; }
 .label-2 { font-size: var(--fontSize-label-2); }
 
 .caption-2{
-    line-height: 22px;
+    line-height: 2.5rem;
     font-size: 1.5rem;
 }
 
@@ -1594,6 +1594,12 @@ column-gap: 1.25em;
 .why{
     background-color: var(--light-beige);
 }
+.why .better-text .row{
+    margin-bottom: 2%;
+}
+.why .better-text .row p{
+    line-height: 1.75em;
+}
 .thrive{
     background-color: var(--green-1);
     padding:5% 8%;
@@ -1744,7 +1750,7 @@ grid-area: 37/39/48/47;
     margin-bottom: 0.5em;
     padding: 1.4rem 1em;
     border: 2px solid black;
-    border-radius: 1em;
+    border-radius: 0.5em;
     background: #fff;
     resize: none;
     outline: none;
@@ -2300,6 +2306,47 @@ grid-area: 37/39/48/47;
     justify-content: center;
     align-self: center;
 }
+
+
+/* ---- QUOTE PAGE ---- */
+.calcOps{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.calcOps .col-sm-6 a{
+    text-align: center;
+    margin: auto;
+}
+#quoteForm input[type=text],
+#quoteForm2 input[type=text]{
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 4px);
+    margin: 0em;
+    margin-bottom: 0.5em;
+    padding: 1.4rem 1em;
+    border: 1px solid var(--green-1);
+    border-radius: 0.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+    font-size: var(--fontSize-body-4);
+}
+.quote{
+    margin-top:2%;
+    background-color: var(--quick-silver);
+}
+#totalCostWind h4, #totalCostSolar h4{
+    font-size:var(--fontSize-body-3);
+}
+
+
+
+
+
+
+
 
 
 /* -- Top Btn -- */
