@@ -138,7 +138,7 @@ const speed = 950;
 
 counters.forEach( counter => {
    const animate = () => {
-      const value = +counter.getAttribute('akhi');
+      const value = +counter.getAttribute('finalCV');
       const data = +counter.innerText;
      
       const time = value / speed;

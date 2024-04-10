@@ -348,7 +348,6 @@ body.nav-active { overflow: hidden; }
 
 .btn-secondary .text-2 { color: var(--white); }
 
-
 .btn-lg-square {
 padding: 0;
 display: flex;
@@ -359,7 +358,14 @@ width: 48px;
 height: 48px;
 }
 
-
+.aLink {
+    display: inline;
+    color:var(--green-1);
+}
+.aLink:hover,
+.aLink:active{
+    color:var(--smoky-black-1);
+}
 .has-before,
 .has-after {
     position: relative;
@@ -563,6 +569,16 @@ height: 48px;
 
 /* -- Topbar -- */
 .topbar { display: none; }
+.topbar .btn2{
+    width:100%;
+    max-width:none;
+    background-color: var(--light-beige);
+    color: var(--lgreen-1);
+    padding: 5px 25px;
+}
+.topbar .btn2:hover{
+    background-color: var(--quick-silver);
+}
 
 /* -- Notif Bar -- */
 .closebtn {
@@ -721,6 +737,42 @@ height: 48px;
     transition: var(--transition-2);
     z-index: 1;
 }
+
+.navbar-item ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    display: none;
+    
+  }
+.navbar-item:hover > ul,
+.navbar-item ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 5px;
+    
+  }
+.navbar-item ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    border-style: none;
+    color: var(--smoky-white-1);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--letterSpacing-1);
+  }
+.navbar-item ul li a:hover {
+    padding-left: 5px;
+    border-left: 2px solid var(--green-1);
+    transition: all 0.3s ease;
+    color:#b5e079;
+  }
+
 .overlay.active {
     opacity: 1;
     pointer-events: all;
@@ -975,7 +1027,9 @@ column-gap: 1.25em;
     margin-top: 2%;
     font-size: var(--fontSize-body-2);
     margin-inline:10px;
-    word-spacing: 2px;
+}
+.stats1 p{
+    word-spacing: 3px;
 }
 .stats1 .comma{
     font-size: var(--fontSize-display-22);
