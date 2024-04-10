@@ -744,14 +744,14 @@ height: 48px;
     position: absolute;
     padding-left: 0;
     display: none;
-    
+    background-color: var(--eerie-black-2);
   }
 .navbar-item:hover > ul,
 .navbar-item ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
-    min-width: 250px;
+    min-width: 180px;
     text-align: left;
     padding-top: 5px;
     
@@ -761,6 +761,7 @@ height: 48px;
     width: 100%;
     text-align: left;
     margin-bottom: 5px;
+    padding-left:5%;
     border-style: none;
     color: var(--smoky-white-1);
     font-weight: var(--weight-bold);
@@ -1012,6 +1013,8 @@ column-gap: 1.25em;
     font-family: var(--fontFamily-reem);
     padding-left:2%;
     padding-right:2%;
+    padding-bottom: 3%;
+    padding-top:4%;
 }
 .stats1 .value {
     font-size: var(--fontSize-display-33);
@@ -1041,28 +1044,31 @@ column-gap: 1.25em;
     background-color: var(--quick-silver);
     padding-top: 5%;
 }
-.goals h1{
+.goalGrid h1{
     font-size: var(--fontSize-title-1);
 }
-.goals h5{
+.goalGrid h5{
     font-size: var(--fontSize-body-2);
 }
 .goalGrid{
-    margin-top: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 .goals .headline-2{
     line-height: 5.5rem;
 }
 .goalStat{
-    padding-left:2%;
-    padding-right:2%;
+    padding-left:4%;
+    padding-right:4%;
     margin:0%;
+    text-align: left;
 }
 .goals .container{
     margin:auto;
 }
-.goals span{
+.goalGrid span{
     line-height: 2.5rem;
+    font-family: var(--fontFamily-open_sans);
 }
 
 /* -- TESTIMONIAL -- */
@@ -2489,6 +2495,9 @@ grid-area: 37/39/48/47;
     }
     .goalStat{
         margin:0%;
+    }
+    .goalGrid{
+        margin-top:2%;
     }
 }
 
