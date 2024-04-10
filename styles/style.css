@@ -1802,6 +1802,9 @@ grid-area: 37/39/48/47;
 
 
 /*------------- SOLUTIONS PAGE -----------*/
+.removePd{
+    padding-right: 2%;
+}
 .methodsBanner .hero-title{
     margin-top: 0;
 }
@@ -1996,6 +1999,10 @@ grid-area: 37/39/48/47;
 .geMethod img{
     padding:5% 5%;
     background-color: var(--green-1);
+}
+.geMethod .btn2{
+    width:100%;
+    margin:auto;
 }
 
 /* -- GET QUOTE -- */
