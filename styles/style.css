@@ -2340,6 +2340,9 @@ grid-area: 37/39/48/47;
 #totalCostWind h4, #totalCostSolar h4{
     font-size:var(--fontSize-body-3);
 }
+.web{
+    padding:5%;
+}
 .accurate{
     background-color: var(--green-1);
     padding-left:10%;
