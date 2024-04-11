@@ -35,7 +35,6 @@
 
     <!--STYLES-->
     <link href="../styles/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
@@ -48,7 +47,9 @@
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     
 </head>
 
@@ -98,17 +99,31 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="../solutions.html" class="navbar-link">
-                        <div class="separator"></div>
-                        <span class="span">Solutions</span>
-                        </a>
+                      <a href="../solutions.html" class="navbar-link">
+                      <div class="separator"></div>
+                      <span class="span">Solutions</span>
+                      </a>
+                      <ul class="nav-dropdown">
+                          <li>
+                            <a href="solar.html">Solar</a>
+                          </li>
+                          <li>
+                            <a href="/wind.html">Wind</a>
+                          </li>
+                          <li>
+                            <a href="hydro.html">Hydroelectric</a>
+                          </li>
+                          <li>
+                              <a href="geo.html">Geothermal</a>
+                            </li>
+                        </ul>
                     </li>
-                    <!-- <li class="navbar-item">
+                    <li class="navbar-item">
                         <a href="../giveandgrow.html" class="navbar-link ">
                         <div class="separator"></div>
                         <span class="span">Give & Grow</span>
                         </a>
-                    </li> -->
+                    </li>
                     <li class="navbar-item">
                         <a href="../careers.html" class="navbar-link ">
                         <div class="separator"></div>
@@ -154,47 +169,47 @@
       </ul>
   </section>
 
-<!--WHAT-->
-  <section class="better">
-    <div class="row g-0 mx-lg-0">
-        <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-          <div class="position-relative h-100">
-              <img class="position-absolute img-fluid w-100 h-100" src="../media/feature.jpg" style="object-fit: cover;" alt="">
+  <!--WHAT-->
+<section class="better">
+  <div class="row g-0 mx-lg-0">
+      <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+        <div class="position-relative h-100">
+            <img class="position-absolute img-fluid w-100 h-100" src="../media/feature.jpg" style="object-fit: cover;" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 better-text wow fadeIn" data-wow-delay="0.1s">
+          <div class="p-lg-5 ps-lg-0">
+              <h6 class="section-subtitle label-1">What</h6>
+              <h1 class="mb-4">What is Solar Energy</h1>
+              <p class="mb-4 pb-2">
+              Green energy refers to the production of electricity and other forms of energy from renewable resources that are environmentally friendly and sustainable over the long term. Unlike fossil fuels, which are finite and produce significant greenhouse gasses, green energy sources like sunlight, wind, rain, tides, and geothermal heat do not run out and emit little to no pollutants.</p>
+              <div class="row g-4">
+                  <div class="col-6">
+                      <div class="d-flex align-items-center">
+                          <div class="btn-lg-square btn-secondary rounded-circle">
+                              <i class="fa fa-check text-white"></i>
+                          </div>
+                          <div class="ms-4">
+                              <p class="mb-0">Fight</p>
+                              <h5 class="mb-0">Climate Change</h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="d-flex align-items-center">
+                          <div class="btn-lg-square btn-secondary rounded-circle">
+                              <i class="fa fa-user-check text-white"></i>
+                          </div>
+                          <div class="ms-4">
+                              <p class="mb-0">Promote</p>
+                              <h5 class="mb-0">A Healthier Planet</h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-6 better-text wow fadeIn" data-wow-delay="0.1s">
-            <div class="p-lg-5 ps-lg-0">
-                <h6 class="section-subtitle label-1">What</h6>
-                <h1 class="mb-4">What is Solar Energy</h1>
-                <p class="mb-4 pb-2">
-                Green energy refers to the production of electricity and other forms of energy from renewable resources that are environmentally friendly and sustainable over the long term. Unlike fossil fuels, which are finite and produce significant greenhouse gasses, green energy sources like sunlight, wind, rain, tides, and geothermal heat do not run out and emit little to no pollutants.</p>
-                <div class="row g-4">
-                    <div class="col-6">
-                        <div class="d-flex align-items-center">
-                            <div class="btn-lg-square btn-secondary rounded-circle">
-                                <i class="fa fa-check text-white"></i>
-                            </div>
-                            <div class="ms-4">
-                                <p class="mb-0">Fight</p>
-                                <h5 class="mb-0">Climate Change</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="d-flex align-items-center">
-                            <div class="btn-lg-square btn-secondary rounded-circle">
-                                <i class="fa fa-user-check text-white"></i>
-                            </div>
-                            <div class="ms-4">
-                                <p class="mb-0">Promote</p>
-                                <h5 class="mb-0">A Healthier Planet</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+  </div>
 </section>
 
 
@@ -217,57 +232,110 @@
   </div>
 </section>
 
+
 <!--STEPS-->
-<section>
-  <section class=" steps accurate">
-    <h6 class="section-subtitle label-1 text-center">Want a More Accurate Estimate?</h6>
-    <div class="row">
-        <div class="col-sm-6 col-lg-3">
-            <div class="step"><h2 class="btn2  text-center">Step 1</h2></div>
-            <div class="accurateCard">
-                <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
-                
-                <h3>MarketWatch Solar Calculator</h3>
-                <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
-                </a>
-            </div>   
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="step"><h2 class="btn2  text-center">Step 2</h2></div>
-            <div class="accurateCard">
-                <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
-                
-                <h3>MarketWatch Solar Calculator</h3>
-                <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
-                </a>
-            </div>   
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="step"><h2 class="btn2  text-center">Step 3</h2></div>
-            <div class="accurateCard">
-                <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
-                
-                <h3>MarketWatch Solar Calculator</h3>
-                <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
-                </a>
-            </div>   
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="step"><h2 class="btn2  text-center">Step 4</h2></div>
-            <div class="accurateCard">
-                <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
-                
-                <h3>MarketWatch Solar Calculator</h3>
-                <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
-                </a>
-            </div>   
-        </div>
-    </div>
-</section>
+<section class=" steps accurate">
+  <h6 class="section-subtitle label-1 text-center">Want a More Accurate Estimate?</h6>
+  <div class="row">
+      <div class="col-sm-6 col-lg-3">
+          <div class="step"><h2 class="btn2  text-center">Step 1</h2></div>
+          <div class="accurateCard">
+              <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
+              
+              <h3>MarketWatch Solar Calculator</h3>
+              <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
+              </a>
+          </div>   
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="step"><h2 class="btn2  text-center">Step 2</h2></div>
+          <div class="accurateCard">
+              <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
+              
+              <h3>MarketWatch Solar Calculator</h3>
+              <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
+              </a>
+          </div>   
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="step"><h2 class="btn2  text-center">Step 3</h2></div>
+          <div class="accurateCard">
+              <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
+              
+              <h3>MarketWatch Solar Calculator</h3>
+              <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
+              </a>
+          </div>   
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="step"><h2 class="btn2  text-center">Step 4</h2></div>
+          <div class="accurateCard">
+              <a href="https://www.marketwatch.com/guides/solar/solar-cost-calculator/"></a>
+              
+              <h3>MarketWatch Solar Calculator</h3>
+              <p>Get a customized estimate of your potential solar system cost and energy savings.</p>
+              </a>
+          </div>   
+      </div>
+  </div>
 </section>
 
+<!--WHY-->
+<section class="whyEnergy  row ">
+  <div class="col-sm-4">
+      <div class="swiper">
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                  <h3></h3>
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+  <div class="better-text removePd col-sm-8">
+    <h6 class="section-subtitle label-1">Types of Energy</h6>
+    <h1 class="mb-4">Renewable vs. Green vs. Clean Energies</h1>
+    <p class="mb-4 pb-2 caption-1">
+        Many often get confused between the differences of renewable, green, and clean energy sources. Renewable energy, also known as sustainable energy, is any energy that comes from constantly and naturally renewed sources. These energy sources cannot be depleted over time. <br><br>
+        Green energy is a form of renewablast environmental impact. Most green energy sources are also renewable; however, not all renewable energy sources are considered entirely green.<br><br>
+        gasses or pollutants during the generation process. Asergy sources are clean; however, not all clean energy is considered renewable.  <br><br>
+        All these forms of energy (renewable, green, and clean) are great alternatives and are environmentally friendly. </p>
+  </div>
+</section>
 
+<!--TAX CREDITS-->
+<section class="better">
+  <div class="row g-0 mx-lg-0">
+      <div class="col-lg-6 better-text wow fadeIn" data-wow-delay="0.1s">
+          <div class="p-lg-5 ps-lg-0">
+              <h6 class="section-subtitle label-1">Incentives</h6>
+              <h1 class="mb-4">Tax Credits and Rebates</h1>
+              <p class="mb-4 pb-2">
+              Green energy refers to the production of electricity and other forms of energy from renewable resources that are environmentally friendly and sustainable over the long term. Unlike fossil fuels, which are finite and produce significant greenhouse gasses, green energy sources like sunlight, wind, rain, tides, and geothermal heat do not run out and emit little to no pollutants.</p>
+              
+          </div>
+      </div>
+      <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+          <div class="position-relative h-100">
+              <img class="position-absolute img-fluid w-100 h-100" src="media/feature.jpg" style="object-fit: cover;" alt="">
+          </div>
+      </div>
+  </div>
+</section>
 
+<!--QUOTE-->
+<section class="getQuote text-center section">
+  <p class="section-subtitle label-1">Interested in Going Green?</p>
+  <h2 class="headline-2 mb-4">Calculate Your Solar Installation Estimate</h2>
+  <p class="body-4">Ranging from convenience to help save our planet, green energy has a multitude of benefits. Invest today for a lifetime of savings and help contribute to making our world greener.  
+  </p>
+  <a href="../quote.html" class="btn2 py-3 px-5">Get a Quote</a>
+</section>
+    
     
     
 </body>

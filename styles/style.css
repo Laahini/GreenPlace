@@ -2057,7 +2057,7 @@ grid-area: 37/39/48/47;
 }
 .swiper {
    
-    height: 50vh;
+    height: 100%;
 }
 .removeMT{
     margin-top: 0%;
@@ -2383,7 +2383,10 @@ grid-area: 37/39/48/47;
 .steps .accurateCard{
    background-color: var(--light-beige);
 }
-
+.whyEnergy{
+    padding-top:3%;
+    padding-bottom: 3%;
+}
 
 
 /* -- Top Btn -- */
