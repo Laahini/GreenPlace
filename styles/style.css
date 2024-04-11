@@ -2340,12 +2340,49 @@ grid-area: 37/39/48/47;
 #totalCostWind h4, #totalCostSolar h4{
     font-size:var(--fontSize-body-3);
 }
+.accurate{
+    background-color: var(--green-1);
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.accurate .section-subtitle{
+    color:white;
+}
+.accurateCard{
+    margin:5%;
+    background-color: var(--quick-silver);
+    padding:5%;
+    border-radius: 15px;
+}
+.accurateImg{
+    width:100%;
+    border-radius: 15px;
+    margin-bottom: 4%;
+}
+.accurate p{
+    font-size: var(--fontSize-body-4);
+    line-height: 1.5em;
+}
 
-
-
-
-
-
+/*----ENERGY PAGES -----*/
+.accurate .btn2{
+    background-color: var(--light-beige);
+    border-radius:50px;
+    color:var(--green-1);
+    padding:5% 10%;
+}
+.accurate .btn2:hover{
+    background-color: var(--quick-silver);
+}
+.step h2{
+    margin:auto;
+    font-size: var(--fontSize-headline-22);
+}
+.steps .accurateCard{
+   background-color: var(--light-beige);
+}
 
 
 
